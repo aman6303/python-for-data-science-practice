@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Website Structure (No CSS)</title>
+
+</head>
+<body>
+
+    <header>
+        
+        <h1 id="site-title">My Website</h1>
+
+        <nav id="main-nav">
+            <ul>
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#" class="nav-link">About</a></li>
+                <li><a href="#" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <hr>
+
+    <main id="main-content">
+
+        <section id="content-area">
+
+            <article class="post">
+                <h2 id="post-title-1">First Article Title</h2>
+                <p>This is the main content of the first article. An 'id' attribute (like "post-title-1") must be unique on the entire page. It's often used for internal page links (anchors) or for JavaScript to find a specific element.</p>
+            </article>
+
+            <article class="post">
+                <h2 id="post-title-2">Second Article Title</h2>
+                <p>This is the second article. It has the same 'post' class as the one above. A 'class' attribute is perfect for grouping elements that share a purpose or would (with CSS) share visual styles.</p>
+            </article>
+
+        </section>
+
+        <aside id="sidebar">
+            <h3>Sidebar</h3>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </aside>
+
+    </main>
+
+    <hr>
+
+    <footer id="page-footer">
+        <p class="copyright">&copy; 2025 My Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
